@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login.html</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav>
+    <a href="">
+      <img src="/images/logo1.jpg" alt="" class="logo">
+    </a>
+    <a href="index.html">
+      <span id="sp1"> Remedex</span>
+      <a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="remedies.html">Remedies</a></li>
+          <li><a href="findadoctor.html">Find a Doctor</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="login.html">Login / Singn Up</a></li>
+        </ul>
+  </nav>
+
+  <!-- Authentication Container -->
+  <div class="bd">
+    <div class="auth-container">
+      <!-- Login Form -->
+      <div id="login-form">
+        <h1>Login</h1>
+        <form class="auth-form" action="#" method="post">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" name="email" placeholder="Enter your email" required>
+
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+
+          <button type="submit">Login</button>
+        </form>
+        <div class="toggle-link">
+          <p>Don't have an account? <a href="/signup.html" onclick="toggleAuthForms()">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>
